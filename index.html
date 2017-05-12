@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pictionary</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header toolbar">
+        <h1>Pictionary</h1>
+        <div class="color-picker">
+            <label>Choose your marker color</label>
+            <input type="color" id="color-picker" />
+        </div>
+        <div class="thickness">
+            <label>Choose your marker thickness</label>
+            <input type="number" id="thickness" value=10 />
+        </div>
+    </div>
+
+    <canvas id="canvas" width="500px" height="500px"></canvas>
+
+    <div class="clear-button">
+        <button class="btn btn-default btn-lg" onclick="context.clearRect(0, 0, canvas.width, canvas.height);">Clear</button>
+    </div>
+
+</div>
+
+<script src="scripts.js" type="text/javascript"></script>
+
+</body>
+</html>

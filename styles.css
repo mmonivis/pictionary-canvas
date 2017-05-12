@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+}
+
+body{
+    background: url('https://s-media-cache-ak0.pinimg.com/originals/ef/83/10/ef831057a331ac8c9d3ffbb5410fd1aa.jpg') no-repeat center;
+}
+
+.container{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+canvas{
+    border: 5px dashed black;
+    background-color: white;
+}
+
+.header, .toolbar, .thickness, .color-picker{
+    padding: 5px;
+}
+
+.toolbar{
+    font-size: 20px;
+}
+
+.clear-button{
+    margin-top: 10px;
+}
